@@ -51,11 +51,8 @@ int main() {
     printf("the random number is %d\nyou've guessed %d times to get it",rando, attempts );
 return 0;
 }
-// so we need an if statment which states that if the number the user guessed is more or less than the random number by a specific number,
-//say so close, and if it is further by a specific number say so far
-// 600 10
-// 620 - 600 = 20
-// if (rand-ans < 10
+
+
 
 
 
