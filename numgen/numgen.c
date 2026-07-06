@@ -16,13 +16,13 @@ int main() {
     printf("guess a number between %d and %d\n", min, max);
 
     do{
-        if (scanf("%d", &ans) != 1) {
+        if (scanf("%d", &ans) != 1) { // checks if user entered a character instead of a number
         printf("That's not a number, silly\n");
         int c;
         while ((c = getchar()) != '\n' && c != EOF);
         continue;
     }
-       if (ans > max || ans < min) {
+       if (ans > max || ans < min) { // checks if user entered invalid number
     printf("That's not in the number pool, silly\n");
 } else {
     if (!st_guess) { // if this isn't the 1st guess
